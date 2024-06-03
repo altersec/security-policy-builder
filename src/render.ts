@@ -217,7 +217,7 @@ async function renderPartials(
 function generateMkdocsPages(config: PolicyBuilderConfig) {
   const toc = generateTOC(config);
 
-  let pages = 'pages:\n';
+  let pages = 'nav:\n';
 
   pages += `- 'Home': 'index.md'\n`;
 
